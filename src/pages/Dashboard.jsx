@@ -10,20 +10,8 @@ const Dashboard = () => {
     <Box className="dashboard-container">
       <Typography variant="h4" className="dashboard-title">Welcome to the Dashboard</Typography>
       <Typography variant="body1" className="dashboard-text">
-        Yeh sample dashboard hai — niche diye buttons se different pages khol sakte ho.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate non aperiam ut eius commodi autem quos corrupti quae a ducimus cupiditate provident illo sed totam aliquam accusamus architecto, eum rerum.<br></br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, officiis! Obcaecati eum pariatur odit. Facere pariatur totam quis doloremque mollitia dignissimos, nam consequuntur itaque neque eius provident, voluptas enim necessitatibus.
       </Typography>
-
-      <Stack direction="row" spacing={2} className="dashboard-buttons">
-        <Button variant="contained" onClick={() => navigate("/products")} className="dashboard-btn">Products</Button>
-        <Button variant="contained" onClick={() => navigate("/users")} className="dashboard-btn">Users</Button>
-        <Button variant="contained" onClick={() => navigate("/github")} className="dashboard-btn">GitHub Finder</Button>
-      </Stack>
-
-      <Box mt={4}>
-        <Typography variant="body2" color="textSecondary">
-          Note: Ye sab dummy data par chal raha hai. Repo mein push karne ke baad real API bhi laga sakte ho.
-        </Typography>
-      </Box>
     </Box>
   );
 };
