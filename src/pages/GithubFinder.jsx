@@ -2,10 +2,6 @@ import React, { useState } from "react";
 import { Box, TextField, Button, Typography, Card, CardContent } from "@mui/material";
 import "./GithubFinder.css";
 
-/*
-  Note: We are using dummy data here (as requested).
-  If you want to switch to real GitHub API, install axios and uncomment fetch code.
-*/
 
 const sampleUsers = [
   { login: "octocat", name: "The Octocat", repos: 8, followers: 5000, avatar: "https://via.placeholder.com/150?text=octocat" },
@@ -30,7 +26,7 @@ const GithubFinder = () => {
 
   return (
     <Box className="github-container">
-      <Typography variant="h4" className="github-title">GitHub User Finder (Dummy)</Typography>
+      <Typography variant="h4" className="github-title">GitHub User Finder</Typography>
       <Box display="flex" gap={2} mt={2} mb={2}>
         <TextField label="GitHub username" value={query} onChange={(e) => setQuery(e.target.value)} />
         <Button variant="contained" onClick={handleSearch}>Search</Button>
