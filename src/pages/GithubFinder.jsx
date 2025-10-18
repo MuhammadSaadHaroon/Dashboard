@@ -4,8 +4,8 @@ import "./GithubFinder.css";
 
 
 const sampleUsers = [
-  { login: "octocat", name: "The Octocat", repos: 8, followers: 5000, avatar: "https://via.placeholder.com/150?text=octocat" },
-  { login: "john-doe", name: "John Doe", repos: 12, followers: 120, avatar: "https://via.placeholder.com/150?text=John" }
+  { login: "octocat", name: "The Octocat", repos: 8, followers: 5000, avatar: "https://banner2.cleanpng.com/20180425/jxe/kisspng-computer-icons-desktop-wallpaper-vector-icon-5ae119aedffdd3.5363031215247016149175.jpg" },
+  { login: "john-doe", name: "John Doe", repos: 12, followers: 120, avatar: "https://banner2.cleanpng.com/20180425/jxe/kisspng-computer-icons-desktop-wallpaper-vector-icon-5ae119aedffdd3.5363031215247016149175.jpg" }
 ];
 
 const GithubFinder = () => {
