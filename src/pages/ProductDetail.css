@@ -1,0 +1,6 @@
+.product-detail-container { padding: 12px; display:flex; justify-content:center; }
+.product-detail-card { width:100%; max-width:900px; display:flex; gap:20px; padding:16px; border-radius:12px; box-shadow: 0 8px 20px rgba(14,30,37,0.06); }
+.product-detail-image { width:320px; object-fit:contain; background:#fff; padding:8px; border-radius:6px; }
+.product-detail-title { color:#1976d2; font-weight:700; margin-bottom:8px; }
+.product-detail-description { color:#444; margin-bottom:12px; }
+.product-detail-price { color:#d32f2f; font-weight:700; margin-top:6px; }

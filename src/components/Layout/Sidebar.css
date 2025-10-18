@@ -1,0 +1,15 @@
+.main-content {
+  padding: 24px;
+  width: 100%;
+  min-height: 100vh;
+  background: #f3f6fb;
+  transition: all 0.2s ease;
+}
+
+.MuiDrawer-paper {
+  background-color: #ffffff;
+}
+
+.MuiListItemButton-root:hover {
+  background-color: rgba(25, 118, 210, 0.12);
+}
